@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="business-card">
+        <div class="container">
+            <div class="profile-image">
+                <!-- <img class="profile-image" src="./src/assets/img.jpg"> -->
+            </div>
+            <div class="info">
+                <div class="info-name">Nelson Lin</div>
+                <div class="info-title">Senior Machine Learning Engieer</div>
+                <div class="info-website">nelsondatascience.com</div>
+            </div>
+
+            <div class="contact">
+                <div class="contact-email">
+                    <img src="https://nelson-aws-resources.s3.ap-southeast-1.amazonaws.com/assets/email-icon.png"
+                        class="icon">
+                    <a href="mailto: nelsonlin0321@outlook.com" target="_blank">
+                        Email</a>
+                </div>
+                <div class="contact-linkedin">
+                    <img src="https://nelson-aws-resources.s3.ap-southeast-1.amazonaws.com/assets/linkedin-icon.png"
+                        class="icon">
+                    <a href="https://www.linkedin.com/in/nelson-lin-842564164/" target="_blank">
+                        LinkedIn</a>
+                </div>
+                <div class="contact-github">
+                    <img src="https://nelson-aws-resources.s3.ap-southeast-1.amazonaws.com/assets/github-icon.png"
+                        class="icon">
+                    <a href="https://github.com/Nelsonlin0321/" target="_blank">
+                        Github</a>
+                </div>
+            </div>
+
+            <div class="about">
+                <h3 class="about-header">
+                    About
+                </h3>
+                <span class="about-introduction">I am a machine learning engineer and data
+                    scientis with a particular interest in delivering machien learning
+                    solutions and impletmenting them with 5 years working
+                    experience and worked for AXA as a data analyst, Tencent as a
+                    data mining engineer, Citibank as a data scientist and now I'm
+                    working as a senior machine learning engineer at Viu. I'm
+                    focusing on NLP and CV domains and exploring Web developement
+                    particular React and DevOps. I am always looking for new
+                    things to learn.</span>
+            </div>
+
+            <div class="interest">
+                <h3 class="interest-header">
+                    Interest
+                </h3>
+                <span class="interest-introduction">Weight Training, Foodie,
+                    English Drama, and Tech enthusiast and love sharing etc.</span>
+            </div>
+
+            <div class="footer">
+
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
+
+<style>
+    * {
+        box-sizing: border-box;
+        margin: 0;
+    }
+
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    body {
+        margin: 0;
+        background: rgba(27, 27, 27, 1);
+    }
+
+    .business-card {
+        width: 550px;
+        height: 850px;
+        border-radius: 10px;
+        background: rgba(35, 37, 44, 1);
+        overflow: hidden;
+        margin: 0 auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-family: Inter;
+        font-weight: Regular;
+    }
+
+    .container {
+        width: 550px;
+        margin-left: 0;
+        margin-right: 0;
+
+    }
+
+    .profile {
+        margin: 0;
+    }
+
+    .profile-image {
+        margin: 0;
+        height: 417px;
+        top: 44px;
+        background-image: url("https://nelson-aws-resources.s3.ap-southeast-1.amazonaws.com/assets/img.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 10px;
+    }
+
+    .info {
+        margin: 10px;
+
+    }
+
+    .info-name {
+        color: white;
+        font-size: 15px;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .info-title {
+        color: rgba(243, 124, 38, 1);
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .info-website {
+        margin: 0 auto;
+        color: rgb(88, 94, 152);
+        font-size: 15px;
+        opacity: 1;
+        text-align: center;
+    }
+
+    .contact {
+        display: flex;
+        align-items: center;
+        margin: 10px;
+    }
+
+    .contact-email {
+        margin-left: auto;
+        margin-right: 20px;
+        width: 115px;
+        height: 34px;
+        background: rgba(255, 255, 255, 1);
+        padding: 9px 11px;
+        border-radius: 6px;
+        font-family: Inter;
+        font-weight: Medium;
+        text-align: center;
+    }
+
+    .contact-linkedin {
+        display: flex;
+        margin-right: 20px;
+        width: 115px;
+        height: 34px;
+        background: rgba(255, 255, 255, 1);
+        padding: 9px 11px;
+        border-radius: 6px;
+        font-family: Inter;
+        font-weight: Medium;
+    }
+
+    .contact-github {
+        margin-right: auto;
+        width: 115px;
+        height: 34px;
+        background: rgba(255, 255, 255, 1);
+        padding: 9px 11px;
+        border-radius: 6px;
+        font-family: Inter;
+        font-weight: Medium;
+        text-align: center;
+    }
+
+    .icon {
+        width: 20px;
+        padding-left: 2px;
+        position: relative;
+    }
+
+    .about {
+        margin: 20px;
+    }
+
+    .about-header {
+        width: 242px;
+        color: rgba(245, 245, 245, 1);
+        position: relative;
+        top: 0px;
+        left: 0px;
+        font-weight: Bold;
+        font-size: 16px;
+        opacity: 1;
+    }
+
+    .about-introduction {
+        width: 247px;
+        color: rgba(220, 220, 220, 1);
+        font-family: Inter;
+        font-weight: Regular;
+        font-size: 15px;
+        text-align: left;
+    }
+
+    .interest {
+        margin: 20px;
+    }
+
+    .interest-header {
+        width: 242px;
+        color: rgba(245, 245, 245, 1);
+        position: relative;
+        top: 0px;
+        left: 0px;
+        font-weight: Bold;
+        font-size: 16px;
+        opacity: 1;
+    }
+
+    .interest-introduction {
+        width: 247px;
+        color: rgba(220, 220, 220, 1);
+        font-family: Inter;
+        font-weight: Regular;
+        font-size: 15px;
+        text-align: left;
+    }
+
+    .footer {
+        background-color: rgba(213.00000250339508, 212.00000256299973, 216.00000232458115, 1);
+        height: 64px;
+        margin: 0;
+    }
+</style>
